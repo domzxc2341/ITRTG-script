@@ -1,0 +1,262 @@
+
+
+
+;; loop 1
+
+
+
+MouseClick,left,873, 439
+  sleep 10000
+
+  
+Loop{
+    PV1:
+ImageSearch, FoundX, FoundY, 826, 414, 927, 468, pic\Create.png
+if (ErrorLevel == 1){
+MouseMove, 564, 504
+  sleep 200
+    Goto, PV1
+}
+if (ErrorLevel == 0){
+  sleep 200
+    Break
+}
+sleep 200
+}
+
+ MouseClick,left,873, 439
+  sleep 10000
+
+  
+Loop{
+    PV2:
+ImageSearch, FoundX, FoundY, 826, 414, 927, 468, pic\Create.png
+if (ErrorLevel == 1){
+ MouseMove, 564, 504
+  sleep 200
+    Goto, PV2
+}
+if (ErrorLevel == 0){
+  sleep 200
+    Break
+}
+sleep 200
+}
+
+ MouseClick,left,873, 439
+  sleep 10000
+
+  
+Loop{
+    PV3:
+ImageSearch, FoundX, FoundY, 826, 414, 927, 468, pic\Create.png
+if (ErrorLevel == 1){
+ MouseMove, 564, 504
+  sleep 200
+Goto, PV3
+}
+if (ErrorLevel == 0){
+  sleep 200
+    Break
+}
+sleep 200
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;;loop 2
+
+
+
+
+
+
+
+
+MouseClick,left,873, 439
+  sleep 10000
+
+
+Loop{
+ImageSearch, FoundX, FoundY, 826, 414, 927, 468, pic\Create.png
+if (ErrorLevel == 1){
+MouseMove, 564, 504
+  sleep 200
+
+}
+if (ErrorLevel == 0){
+  sleep 200
+    Break
+}
+sleep 200
+}
+
+ MouseClick,left,873, 439
+  sleep 10000
+
+  Loop{
+    PV4:
+ImageSearch, FoundX, FoundY, 826, 414, 927, 468, pic\Create.png
+if (ErrorLevel == 1){
+MouseMove, 564, 504
+  sleep 200
+Goto, PV4
+}
+if (ErrorLevel == 0){
+  sleep 200
+    Break
+}
+sleep 200
+}
+
+ MouseClick,left,873, 439
+  sleep 10000
+
+Loop{
+    PV5:
+ImageSearch, FoundX, FoundY, 826, 414, 927, 468, pic\Create.png
+if (ErrorLevel == 1){
+MouseMove, 564, 504
+  sleep 200
+  Goto, PV5
+
+}
+if (ErrorLevel == 0){
+  sleep 200
+    Break
+}
+sleep 200
+}
+
+ MouseClick,left,873, 439
+  sleep 10000
+  
+  Loop{
+    PV6:
+ImageSearch, FoundX, FoundY, 826, 414, 927, 468, pic\Create.png
+if (ErrorLevel == 1){
+MouseMove, 564, 504
+  sleep 200
+Goto, PV6
+}
+if (ErrorLevel == 0){
+  sleep 200
+    Break
+}
+sleep 200
+}
+
+ MouseClick,left,873, 439
+  sleep 10000
+
+  Loop{
+    PV7:
+ImageSearch, FoundX, FoundY, 826, 414, 927, 468, pic\Create.png
+if (ErrorLevel == 1){
+MouseMove, 564, 504
+  sleep 200
+    Goto, PV7
+}
+if (ErrorLevel == 0){
+  sleep 200
+    Break
+}
+sleep 200
+}
+ MouseClick,left,873, 439
+  sleep 10000
+
+Loop{
+    PV8:
+ImageSearch, FoundX, FoundY, 826, 414, 927, 468, pic\Create.png
+if (ErrorLevel == 1){
+MouseMove, 564, 504
+  sleep 200
+  Goto, PV8
+
+}
+if (ErrorLevel == 0){
+  sleep 200
+    Break
+}
+sleep 200
+}
+
+ MouseClick,left,873, 439
+  sleep 10000
+  
+  Loop{
+    PV9:
+ImageSearch, FoundX, FoundY, 826, 414, 927, 468, pic\Create.png
+if (ErrorLevel == 1){
+MouseMove, 564, 504
+  sleep 200
+Goto, PV9
+}
+if (ErrorLevel == 0){
+  sleep 200
+    Break
+}
+sleep 200
+}
+
+ MouseClick,left,873, 439
+  sleep 10000
+
+  Loop{
+    PV10:
+ImageSearch, FoundX, FoundY, 826, 414, 927, 468, pic\Create.png
+if (ErrorLevel == 1){
+MouseMove, 564, 504
+  sleep 200
+    Goto, PV10
+}
+if (ErrorLevel == 0){
+  sleep 200
+    Break
+}
+sleep 200
+}
+
+
+
+;sample of long sure monument
+
+;Mystic Garden
+Loop{
+    Mystic:
+    sleep 2000
+ImageSearch, FoundX, FoundY, 527, 348, 578, 398, pic\One.png
+if (ErrorLevel == 1)
+    MouseClick, left, 846, 293
+    sleep 200
+    send 4
+    sleep 200
+    MouseClick, left, 862, 467
+    MouseClick, left, 860, 506
+    MouseClick, left, 858, 538
+    MouseClick, left, 861, 576
+    send w
+    sleep 200
+    MouseClick, left, 782, 174
+    MouseClick, left, 884, 216
+    send 6
+    sleep 200
+    Goto, Mystic
+if (ErrorLevel == 0){
+    Break
+}
