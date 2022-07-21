@@ -5,7 +5,7 @@ SetWorkingDir, %A_ScriptDir%
 
 ^r::
 
-ImageSearch, FoundX, FoundY, 125, 575, 152, 612, C:\Users\Administrator\AppData\Roaming\MacroCreator\Screenshots\Screen_20220720183108.png
+ImageSearch, FoundX, FoundY, 0,0, 1980, 1080, pic\Rebirth.png
 MsgBox The icon was found at %FoundX%x%FoundY%.
 
 
