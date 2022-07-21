@@ -693,7 +693,7 @@ sleep 200
 MouseClick, left, 901, 165
 sleep 200
 MouseClick, left, 904, 190
-sleep 10000
+sleep 15000
 
 
 ;scroll up
@@ -958,6 +958,20 @@ Loop {
         Break
     }
 }
+
+send a
+sleep 200
+;mystic 100-0
+MouseClick,left, 696, 275
+sleep 200
+
+;battle 0-100
+MouseClick, left, 	887, 306
+sleep 200
+
+send a
+sleep 200
+
 ;fight gods
 send 5
 sleep 200
