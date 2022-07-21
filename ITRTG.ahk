@@ -9,7 +9,7 @@ Loop{
 Rebirth:
 Loop {
 
-ImageSearch, FoundX, FoundY, 0,0, 1980, 1080, pic\Rebirth.png
+ImageSearch, FoundX, FoundY, 50, 542, 131, 575, pic\Rebirth.png
 if (ErrorLevel == 0) {
     Click, %FoundX%, %FoundY% Left, 1
     Break
@@ -18,7 +18,7 @@ sleep 200
 }
 
 Loop{
-ImageSearch, FoundX, FoundY, 0,0, 1980, 1080, pic\Rebirth_yes.png
+ImageSearch, FoundX, FoundY, 319, 265, 945, 613, pic\Rebirth_yes.png
 if (ErrorLevel == 0){
 
 Click, %FoundX%, %FoundY% Left, 1
@@ -31,7 +31,7 @@ send w
 sleep 200
 
 Loop{
-ImageSearch, FoundX, FoundY, 0,0, 1980, 1080, pic\Pet_Spread.png
+ImageSearch, FoundX, FoundY, 736, 155, 843, 196, pic\Pet_Spread.png
 if (ErrorLevel == 0){
 Click, %FoundX%, %FoundY% Left, 1
     Break
@@ -40,7 +40,7 @@ sleep 200
 }
 
 Loop{
-ImageSearch, FoundX, FoundY, 0,0, 1980, 1080, pic\Pet_Halfstats.png
+ImageSearch, FoundX, FoundY, 837, 197, 943, 236, pic\Pet_Halfstats.png
 if (ErrorLevel == 0){
 Click, %FoundX%, %FoundY% Left, 1
     Break
@@ -58,7 +58,7 @@ MouseClick, left, 931, 596
 sleep 200
 
 Loop{
-ImageSearch, FoundX, FoundY, 0,0, 1980, 1080, pic\Vampire_empty.png
+ImageSearch, FoundX, FoundY, 297, 277, 539, 613, pic\Vampire_empty.png
 if (ErrorLevel == 1)
     MouseClick, left, 862, 467
     sleep 200
@@ -69,7 +69,7 @@ sleep 200
 }
 
 Loop{
-ImageSearch, FoundX, FoundY, 0,0, 1980, 1080, pic\Lamia_empty.png
+ImageSearch, FoundX, FoundY, 297, 277, 539, 613, pic\Lamia_empty.png
 if (ErrorLevel == 1)
     MouseClick, left, 860, 506
     sleep 200
@@ -80,7 +80,7 @@ sleep 200
 }
 
 Loop{
-ImageSearch, FoundX, FoundY, 0,0, 1980, 1080, pic\Dragon_empty.png
+ImageSearch, FoundX, FoundY, 297, 277, 539, 613, pic\Dragon_empty.png
 if (ErrorLevel == 1)
     MouseClick, left, 858, 538
     sleep 200
@@ -94,7 +94,7 @@ sleep 200
 send 5
 
 Loop{
-ImageSearch, FoundX, FoundY, 0,0, 1980, 1080, pic\Finger_Click.png
+ImageSearch, FoundX, FoundY, 620, 139, 820, 194, pic\Finger_Click.png
 if (ErrorLevel == 0){
 Click, %FoundX%, %FoundY% Left, 1
 sleep 500
@@ -105,7 +105,7 @@ sleep 200
 }
 
 Loop{
-ImageSearch, FoundX, FoundY, 0,0, 1980, 1080, pic\Fight.png
+ImageSearch, FoundX, FoundY, 694, 236, 853, 293, pic\Fight.png
 if (ErrorLevel == 0){
 Click, %FoundX%, %FoundY% Left, 1
 sleep 500
@@ -133,16 +133,16 @@ sleep 200
 ;creation auto buy
 MouseClick, left, 901, 165
 sleep 200
-MouseClick, left, 901, 196
+MouseClick, left, 904, 190
 sleep 5000
 
 MouseClick, left, 901, 165
 sleep 200
-MouseClick, left, 901, 196
+MouseClick, left, 904, 190
 sleep 200
 
 ;scroll up
-MouseClick, left,942, 356
+MouseClick, left,939, 346
 sleep 200
 
 ;ignore count off
@@ -156,7 +156,7 @@ sleep 200
 
 ;Mighty Statue
 Loop{
-ImageSearch, FoundX, FoundY, 0,0, 1980, 1080, pic\One.png
+ImageSearch, FoundX, FoundY, 536, 275, 570, 312, pic\One.png
 if (ErrorLevel == 1)
     MouseClick, left, 846, 293
     sleep 200
@@ -182,7 +182,7 @@ sleep 200
 ;Mystic Garden
 Loop{
     sleep 2000
-ImageSearch, FoundX, FoundY, 0,0, 1980, 1080, pic\One.png
+ImageSearch, FoundX, FoundY, 527, 348, 578, 398, pic\One.png
 if (ErrorLevel == 1)
     MouseClick, left, 846, 293
     sleep 200
@@ -207,7 +207,7 @@ sleep 200
 
 ;Tomb of Gods
 Loop{
-ImageSearch, FoundX, FoundY, 0,0, 1980, 1080, pic\One.png
+ImageSearch, FoundX, FoundY, 533, 432, 578, 475, pic\One.png
 if (ErrorLevel == 1)
     MouseClick, left, 846, 293
     sleep 200
@@ -232,7 +232,7 @@ sleep 200
 
 ;Everlasting lighthouse
 Loop{
-ImageSearch, FoundX, FoundY, 0,0, 1980, 1080, pic\One.png
+ImageSearch, FoundX, FoundY, 532, 506, 576, 555, pic\One.png
 if (ErrorLevel == 1)
     MouseClick, left, 846, 293
     sleep 200
@@ -261,7 +261,7 @@ sleep 200
 
 ;Godly Statue
 Loop{
-ImageSearch, FoundX, FoundY, 0,0, 1980, 1080, pic\One.png
+ImageSearch, FoundX, FoundY, 534, 300, 572, 336, pic\One.png
 if (ErrorLevel == 1)
     MouseClick, left, 846, 320
     sleep 200
@@ -286,7 +286,7 @@ sleep 200
 
 ;Pyramids Tower
 Loop{
-ImageSearch, FoundX, FoundY, 0,0, 1980, 1080, pic\One.png
+ImageSearch, FoundX, FoundY, 530, 376, 573, 417, pic\One.png
 if (ErrorLevel == 1)
     MouseClick, left, 846, 397
     sleep 200
@@ -310,7 +310,7 @@ sleep 200
 }
 ;temple of gods
 Loop{
-ImageSearch, FoundX, FoundY, 0,0, 1980, 1080, pic\One.png
+ImageSearch, FoundX, FoundY, 533, 454, 579, 501, pic\One.png
 if (ErrorLevel == 1)
     MouseClick, left, 845, 478
     sleep 200
@@ -339,7 +339,7 @@ sleep 200
 
 Loop {
     Divinity:
-    ImageSearch, FoundX, FoundY, 0,0, 1980, 1080, pic\Divinity.png
+    ImageSearch, FoundX, FoundY, 465, 226, 556, 270, pic\Divinity.png
     if (ErrorLevel = 1) {
         ;divinity generator
         MouseClick, left, 774, 290
@@ -353,7 +353,7 @@ Loop {
 }
 
 Loop{
-ImageSearch, FoundX, FoundY, 0,0, 1980, 1080, pic\One.png
+ImageSearch, FoundX, FoundY, 527, 501, 568, 537, pic\One.png
 if (ErrorLevel == 1)
     MouseClick, left, 908, 293
     sleep 1000
@@ -370,7 +370,7 @@ MouseClick, left, 893, 475
 
 ;building again divinity
 Loop{
-ImageSearch, FoundX, FoundY, 0,0, 1980, 1080, pic\5Minutes.png
+ImageSearch, FoundX, FoundY, 123, 579, 151, 611, pic\5Minutes.png
 if (ErrorLevel == 1)
     MouseClick, left, 908, 293
     sleep 5000
@@ -409,7 +409,7 @@ MouseClick, left, 849, 374
 send 5
 
 Loop{
-ImageSearch, FoundX, FoundY, 0,0, 1980, 1080, pic\Finger_Click.png
+ImageSearch, FoundX, FoundY, 620, 139, 820, 194, pic\Finger_Click.png
 if (ErrorLevel == 0){
 Click, %FoundX%, %FoundY% Left, 1
 sleep 500
@@ -420,7 +420,7 @@ sleep 200
 }
 
 Loop{
-ImageSearch, FoundX, FoundY, 0,0, 1980, 1080, pic\Fight.png
+ImageSearch, FoundX, FoundY, 694, 236, 853, 293, pic\Fight.png
 if (ErrorLevel == 0){
 Click, %FoundX%, %FoundY% Left, 1
 sleep 500
@@ -451,15 +451,15 @@ sleep 200
 ;creation auto buy
 MouseClick, left, 901, 165
 sleep 200
-MouseClick, left, 901, 196
+MouseClick, left, 904, 190
 sleep 10000
 
 
 
 ;scroll up
-MouseClick, left,942, 356
+MouseClick, left, 940, 350
 sleep 200
-MouseClick, left,942, 356
+MouseClick, left, 940, 350
 sleep 200
 
 ;village
@@ -480,10 +480,10 @@ sleep 200
 Loop {
     PEFifty:
     sleep 5000
-    ImageSearch, FoundX, FoundY, 0,0, 1980, 1080, pic\Fifty.png
+    ImageSearch, FoundX, FoundY, 539, 409, 605, 470, pic\Fifty.png
     if (ErrorLevel = 1){
         Loop {
-            ImageSearch, FoundX, FoundY, 0,0, 1980, 1080, pic\Stop.png
+            ImageSearch, FoundX, FoundY, 823, 412, 929, 471, pic\Stop.png
             if (ErrorLevel = 1){
                      MouseClick,left,873, 439
                     sleep 200
@@ -521,7 +521,7 @@ sleep 200
 ;creation auto buy
 MouseClick, left, 901, 165
 sleep 200
-MouseClick, left, 901, 196
+MouseClick, left, 904, 190
 sleep 2000
 
 ;adjust gp
@@ -538,19 +538,19 @@ send a
 
 
 send 8
-sleep 500
+sleep 200
 
 ;add clones to fight uvb2
-MouseClick, left, 754, 311
+MouseClick, left, 754, 302
 sleep 200
 
 ;ubv2
 Loop {
 Label1:
-ImageSearch, FoundX, FoundY, 0,0, 1980, 1080, pic\gtv2.png
+ImageSearch, FoundX, FoundY, 303, 367, 498, 400, pic\gtv2.png
 if(ErrorLevel = 1) {
 ;fight ubv2
-ImageSearch, FoundX, FoundY, 0,0, 1980, 1080, pic\fight_uvb2.png
+ImageSearch, FoundX, FoundY, 832, 365, 927, 404, pic\fight_uvb2.png
 sleep 200
 Click, %FoundX%, %FoundY% Left, 1
 sleep 200
@@ -623,7 +623,7 @@ send c
 sleep 100
 Loop {
 Label2:
-ImageSearch, FoundX, FoundY, 0,0, 1980, 1080, pic\Clonestouse.png
+ImageSearch, FoundX, FoundY, 300, 133, 445, 191, pic\Clonestouse.png
 if (ErrorLevel = 1){
 MouseClick,Left, 341, 162
 sleep 200
@@ -692,14 +692,14 @@ sleep 200
 ;creation auto buy on and off
 MouseClick, left, 901, 165
 sleep 200
-MouseClick, left, 901, 196
+MouseClick, left, 904, 190
 sleep 15000
 
 
 ;scroll up
-MouseClick, left,942, 356
+MouseClick, left, 940, 350
 sleep 200
-MouseClick, left,942, 356
+MouseClick, left, 940, 350
 sleep 200
 
 ;village
@@ -723,10 +723,10 @@ sleep 200
 Loop {
     GTFifty:
     sleep 5000
-    ImageSearch, FoundX, FoundY, 0,0, 1980, 1080, pic\Fifty.png
+    ImageSearch, FoundX, FoundY, 539, 409, 605, 470, pic\Fifty.png
     if (ErrorLevel = 1){
         Loop {
-            ImageSearch, FoundX, FoundY, 0,0, 1980, 1080, pic\Stop.png
+            ImageSearch, FoundX, FoundY, 823, 412, 929, 471, pic\Stop.png
             if (ErrorLevel = 1){
                      MouseClick,left,873, 439
                     sleep 200
@@ -759,7 +759,7 @@ sleep 200
 ;creation auto buy
 MouseClick, left, 901, 165
 sleep 200
-MouseClick, left, 901, 196
+MouseClick, left, 904, 190
 sleep 2000
 
 send 8
@@ -773,10 +773,10 @@ sleep 200
 ;ubv2
 Loop {
 Label3:
-ImageSearch, FoundX, FoundY, 0,0, 1980, 1080, pic\Lvv2.png
+ImageSearch, FoundX, FoundY, 303, 357, 515, 403, pic\Lvv2.png
 if(ErrorLevel = 1) {
 ;fight ubv2
-ImageSearch, FoundX, FoundY, 0,0, 1980, 1080, pic\fight_uvb2.png
+ImageSearch, FoundX, FoundY, 832, 365, 927, 404, pic\fight_uvb2.png
 sleep 200
 Click, %FoundX%, %FoundY% Left, 1
 sleep 200
@@ -849,7 +849,7 @@ send c
 sleep 100
 Loop {
 Label4:
-ImageSearch, FoundX, FoundY, 0,0, 1980, 1080, pic\Clonestouse.png
+ImageSearch, FoundX, FoundY, 300, 133, 445, 191, pic\Clonestouse.png
 if (ErrorLevel = 1){
 MouseClick,Left, 341, 162
 sleep 200
@@ -907,11 +907,11 @@ send 1
 sleep 200
 
 ;scroll up
-MouseClick, left,942, 356
+MouseClick, left, 939, 346
 sleep 200
-MouseClick, left,942, 356
+MouseClick, left, 939, 346
 sleep 200
-MouseClick, left,942, 356
+MouseClick, left, 939, 346
 sleep 200
 
 ;scroll down
@@ -928,13 +928,13 @@ sleep 200
 ;creation auto buy
 MouseClick, left, 901, 165
 sleep 200
-MouseClick, left, 901, 196
+MouseClick, left, 904, 190
 sleep 5000
 
 ;creation auto buy
 MouseClick, left, 901, 165
 sleep 200
-MouseClick, left, 901, 196
+MouseClick, left, 904, 190
 sleep 200
 
 send 6
@@ -948,7 +948,7 @@ MouseClick, left, 846, 477
 sleep 200
 
 Loop {
-    ImageSearch, FoundX, FoundY, 0,0, 1980, 1080, pic\Fiftheen.png
+    ImageSearch, FoundX, FoundY, 125, 575, 152, 612, pic\Fiftheen.png
     if (ErrorLevel = 1) {
         MouseClick, left, 846, 477
     sleep 1000
@@ -977,7 +977,7 @@ send 5
 sleep 200
 
 Loop{
-ImageSearch, FoundX, FoundY,0,0, 1980, 1080, pic\Finger_Click.png
+ImageSearch, FoundX, FoundY, 620, 139, 820, 194, pic\Finger_Click.png
 if (ErrorLevel == 0){
 Click, %FoundX%, %FoundY% Left, 1
 sleep 500
